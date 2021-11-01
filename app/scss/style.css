@@ -191,16 +191,17 @@ body .fa-instagram {
   color: white;
 }
 
-.contents {
-  height: 300px
+body .contents {
+  height: 300px;
+  margin-top:100px;
 }
 
-.contents-item {
+body .contents-item {
   float:left;
   margin-right: 70px;
 }
 
-.contents-item p {
+body .contents-item p {
   font-size:50px;
   margin-top:30px;
 

@@ -192,7 +192,7 @@ body .fa-instagram {
 }
 
 .contents {
-  height: 800px
+  height: 300px
 }
 
 .contents-item {
@@ -200,7 +200,7 @@ body .fa-instagram {
   margin-right: 70px;
 }
 
-.contents-item {
+.contents-item p {
   font-size:50px;
   margin-top:30px;
 

@@ -199,6 +199,8 @@ body .contents {
 body .contents-item {
   float:left;
   margin-right: 70px;
+  width:100%;
+  height:auto;
 }
 
 body .contents-item p {

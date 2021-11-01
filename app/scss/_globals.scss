@@ -143,13 +143,26 @@ li a:hover{
     background-color: #111;
 }
 
+/*zoom into deals on hover*/
+.zoom{
+    padding: 50px;
+    transition: transform .2s;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
 /*footer*/
 .foot {
     text-align: center;
     padding: 3px;
     background-color:  #333;
     color: white;
-    bottom: 0;
+    position: relative;
+    bottom: 0px;
     width: 100%;
     
   }

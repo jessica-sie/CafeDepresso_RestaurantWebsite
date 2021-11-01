@@ -190,4 +190,19 @@ body .fa-instagram {
   background: #125688;
   color: white;
 }
+
+.contents {
+  height: 800px
+}
+
+.contents-item {
+  float:left;
+  margin-right: 70px;
+}
+
+.contents-item {
+  font-size:50px;
+  margin-top:30px;
+
+}
 /*# sourceMappingURL=style.css.map */

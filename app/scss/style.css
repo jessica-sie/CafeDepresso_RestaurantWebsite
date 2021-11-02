@@ -189,6 +189,7 @@ body .contents-item:active {
 
 }
 
+<<<<<<< Updated upstream
 body .zoom {
   padding: 50px;
   width: 500px;
@@ -203,6 +204,8 @@ body .zoom:hover {
   transition: .2s;
 }
 
+=======
+>>>>>>> Stashed changes
 body .foot {
   text-align: center;
   padding: 3px;

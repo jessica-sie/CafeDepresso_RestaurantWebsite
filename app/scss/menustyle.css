@@ -1,6 +1,8 @@
 body, html {
     background-image: linear-gradient(bisque, saddlebrown);
     height:100%;
+    background-attachment: fixed;
+    margin:0px;
 }
 
 .menu-content {
@@ -11,6 +13,7 @@ body, html {
 
 .contents-item {
     float:left;
+    margin:3px;
 }
 body ul {
     list-style-type: none;

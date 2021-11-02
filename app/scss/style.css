@@ -192,8 +192,6 @@ body .contents-item:active {
 
 }
 
-body footer {
-=======
 body .zoom {
   padding: 50px;
   -webkit-transition: -webkit-transform .2s;

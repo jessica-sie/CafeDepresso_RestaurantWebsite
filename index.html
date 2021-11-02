@@ -13,18 +13,20 @@
 </head>
 <body>
      <!-- Navigation Bar -->
-    <ul>
+    <div class="header" style="position:fixed;z-index:10">
+      <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="html/menu.html">Menu</a></li>
-        <li><a href="https://www.gojek.com/gofood/">Order Online</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="onlineorder.html">Order Online</a></li>
         <li style="float:right"><a href="login"> Login</a></li>
         <li style="float:right"><a href="#about">Reservations</a></li>
-        
-    </ul>
-    <h1 style="padding:100px;font-family:Handlee;font-size:80px;text-align:center;"> Sbubby Restaurant </h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium accusamus deleniti tempore dicta minus laborum illum nisi obcaecati perferendis alias repellendus numquam repellat dolorum sint, neque dolore sit. Obcaecati, autem.</p>
+      </ul>
     </div>
+    <div class="opening-blurb">
+      <h1 style="padding:50px;font-family:Handlee;font-size:80px;text-align:center;"> Sbubby Restaurant </h1>
+      <p style= "font-family:Handlee;text-align: center;padding-bottom:100px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium accusamus deleniti tempore dicta minus laborum illum nisi obcaecati perferendis alias repellendus numquam repellat dolorum sint, neque dolore sit. Obcaecati, autem.</p>
 
+    </div>
       
 
     <!-- Slideshow container -->
@@ -65,7 +67,7 @@
  
     <!-- Deals--> 
   <div class="contents" style="height:500px">
-    <h3 class="section-title">CHECK OUT OUR MANY PROMOS!</h3>
+    <h3 class="section-title" style="font-size:70px"><img src="images/chef.png" style="width:250px;height:auto;">CHECK OUT OUR MANY PROMOS!</h3>
     <div class="contents-item">
         <div class="zoom">
             <a href="https://www.traveloka.com/id-id/restaurants">
@@ -88,18 +90,22 @@
     </article>
 
     <div class="contents-item">
-        <div class="zoom">
-            <a href="https://www.traveloka.com/id-id/restaurants">
-            <img src="images/promos.jpg" style="width:400px;height:400px">
-            </a>
-        </div>
-      
-       <p style="font-family:Handlee;font-size:30px;font-weight:bold;">PROMOS GALORE!</p>
+      <div class="zoom">
+      <a href="https://www.traveloka.com/id-id/restaurants">
+        <img src="images/promos.jpg" style="width:400px;height:400px;">
+       </a>
+       </div>
     </div>
   </div>
+  <!-- Footer-->
+    <div class="foot"> 
+        <p>Contact Us!<br>
+            <a href="https://binus.edu/admissions/" class="fa fa-facebook"></a>
+            <a href="https://binus.edu/admissions/" class="fa fa-instagram"></a> 
 
-
-
+        </p>
+    </div>
+    
   <script src="app/js/script.js"></script>
 
 </body>

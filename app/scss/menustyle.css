@@ -1,0 +1,44 @@
+body, html {
+    background-image: linear-gradient(bisque, saddlebrown);
+    height:100%;
+    background-attachment: fixed;
+    margin:0px;
+}
+
+.menu-content {
+    height:600px;
+    margin:0px;
+}
+
+
+.contents-item {
+    float:left;
+    margin:3px;
+}
+body ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  body li {
+    display: inline;
+    float: left;
+    font-family:Handlee;
+  }
+  
+  body li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  body li a:hover {
+    background-color: #111;
+  }

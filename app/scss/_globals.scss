@@ -149,7 +149,6 @@ li a:hover{
 /*zoom into deals on hover*/
 .zoom{
     padding: 50px;
-    transition: transform .2s;
     width: 500px;
     height: 500px;
     margin: 0 auto;
@@ -157,6 +156,7 @@ li a:hover{
 
 .zoom:hover{
     transform: scale(1.1);
+    transition:.2s;
 }
 /*footer*/
 .foot {

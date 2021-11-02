@@ -1,0 +1,15 @@
+.main {
+    padding: 100px 80px;
+  }
+  
+  .copy-container h1 {
+    font-size: 140px;
+  }
+  
+  .copy-container h2 {
+    font-size: 60px;
+  }
+  
+  .copy-container span {
+    color: #145C9E;
+  }

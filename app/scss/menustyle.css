@@ -1,0 +1,14 @@
+body, html {
+    background-image: linear-gradient(bisque, saddlebrown);
+    height:100%;
+}
+
+.menu-content {
+    height:550px;
+    margin:0px;
+}
+
+
+.contents-item {
+    float:left;
+}

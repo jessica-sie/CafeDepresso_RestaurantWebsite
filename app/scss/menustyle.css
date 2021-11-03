@@ -7,14 +7,36 @@ body, html {
 
 .menu-content {
     height:700px;
-    margin:0px;
 }
 
+body .photo-1, .photo-2, .photo-3, .photo-4 {
+  width: 100%;
+  max-width:400px;
+  height: auto;
+}
+
+body .contents-item:active {
+  position:relative;
+  top:10px;
+
+}
 .contents-item {
-    float:left;
-    margin:3px;
-    cursor: -webkit-zoom-in;
-    cursor: zoom-in;
+  padding: 50px 0px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .contents-item {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contents-item {
+    width: 100%;
+  }
 }
 body ul {
     list-style-type: none;

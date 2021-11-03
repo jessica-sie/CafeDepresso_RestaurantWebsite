@@ -33,7 +33,7 @@ body li a:hover {
 }
 
 .main {
-    padding: 100px 80px;
+    padding: 100px 30px;
   }
   
   .copy-container h1 {
@@ -56,10 +56,38 @@ body li a:hover {
     color: whitesmoke;
   }
 
-  body .contents-item {
-    float:left;
-    margin-right:25px;
-    margin-left:25px;
+  .onlineorder-content{
+    height:500px;
+
+  }
+
+  body .photo-1 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  body .contents-item:active {
+    position:relative;
+    top:10px;
+  
+  }
+  .contents-item {
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .contents-item {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .contents-item {
+      width: 100%;
+    }
   }
   
   body .contents-item:active {

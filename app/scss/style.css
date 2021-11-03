@@ -177,10 +177,10 @@ body .contents {
   margin-left: 30px;
   margin-bottom:500px;
 }
-body .contents-item {
-  float:right;
-  margin-right:35px;
-  margin-left:35px;
+body .photo-1, .photo-2, .photo-3, .photo-4 {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 body .contents-item:active {
@@ -188,15 +188,32 @@ body .contents-item:active {
   top:10px;
 
 }
+.contents-item {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
 
-body .foot {
+@media only screen and (max-width: 700px) {
+  .contents-item {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contents-item {
+    width: 100%;
+  }
+}
+
+
+footer {
+  position:absolute;
   text-align: center;
   padding: 3px;
   background-color: #333;
   color: white;
-  position: relative;
-  bottom: 0px;
-  width: 100%;
 }
 
 body .fa {

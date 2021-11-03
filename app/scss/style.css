@@ -194,7 +194,7 @@ body .foot {
   padding: 3px;
   background-color: #333;
   color: white;
-  position: relative;
+  position: static;
   bottom: 0px;
   width: 100%;
 }

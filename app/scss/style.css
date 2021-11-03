@@ -8,6 +8,10 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
+@font-face {
+  font-family: 'Handlee';
+  src: url('Handlee-Regular.ttf') format('truetype')
+}
 
 body {
   font-family: Arial, Handlee, Helvetica, sans-serif;
